@@ -1,0 +1,84 @@
+import Vue from 'vue'
+import {
+    Button,
+    Form,
+    FormItem,
+    Input,
+    Message,
+    Header,
+    Aside,
+    Main,
+    Container,
+    Menu,
+    MenuItem,
+    Submenu,
+    Breadcrumb,
+    BreadcrumbItem,
+    Table,
+    TableColumn,
+    Switch,
+    Row,
+    Option,
+    Select,
+    Pagination,
+    Card,
+    Col,
+    Tooltip,
+    Dialog,
+    MessageBox,
+    Tag,
+    Tree,
+    Cascader,
+    Step,
+    Steps,
+    Tabs,
+    TabPane,
+    Alert,
+    Checkbox,
+    CheckboxGroup,
+    Upload,
+    Timeline,
+    TimelineItem,
+    Avatar,
+} from 'element-ui'
+
+Vue.use(Button)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Input)
+Vue.use(Header)
+Vue.use(Aside)
+Vue.use(Main)
+Vue.use(Container)
+Vue.use(Menu)
+Vue.use(MenuItem)
+Vue.use(Submenu)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Switch)
+Vue.use(Row)
+Vue.use(Option)
+Vue.use(Select)
+Vue.use(Pagination)
+Vue.use(Card)
+Vue.use(Col)
+Vue.use(Tooltip)
+Vue.use(Dialog)
+Vue.use(Tag)
+Vue.use(Tree)
+Vue.use(Cascader)
+Vue.use(Step)
+Vue.use(Steps)
+Vue.use(Tabs)
+Vue.use(TabPane)
+Vue.use(Alert)
+Vue.use(Checkbox)
+Vue.use(CheckboxGroup)
+Vue.use(Upload)
+Vue.use(Timeline)
+Vue.use(TimelineItem)
+Vue.use(Avatar)
+Vue.prototype.$message = Message
+Vue.prototype.$confirm = MessageBox.confirm

@@ -1,0 +1,17 @@
+html,
+body,
+#app {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.el-cascader-menu {
+    height: 360px;
+}
+.el-step__title {
+    font-size: 13px;
+  }
+.ql-editor {
+    min-height: 300px;
+  }
